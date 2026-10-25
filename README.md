@@ -56,8 +56,8 @@ No FL Studio: **Add > More plugins > Refresh plugin list** (ou *Find installed p
 Requisitos: [CMake](https://cmake.org/) 3.22+, Visual Studio Build Tools (carga **Desktop development with C++**) e Git.
 
 ```
-git clone https://github.com/<seu-usuario>/bass-presence.git
-cd bass-presence
+git clone https://github.com/oKaijuu/BassFix.git
+cd BassFix
 cmake -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build --config Release
 ```
@@ -67,7 +67,7 @@ O plugin sai em `build\BassPresence_artefacts\Release\VST3\Bass Presence.vst3`. 
 ## Estrutura
 
 ```
-bass-presence/
+BassFix/
 ├── CMakeLists.txt
 ├── Source/
 │   └── Plugin.cpp
